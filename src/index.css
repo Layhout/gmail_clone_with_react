@@ -1,5 +1,6 @@
 *{
   margin: 0;
+  overflow: hidden;
 }
 
 body {
@@ -14,4 +15,13 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App{
+  height: 100vh;
+}
+
+.app_body{
+  display: flex;
+  height: 100vh;
 }
