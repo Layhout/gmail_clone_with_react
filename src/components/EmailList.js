@@ -64,27 +64,6 @@ const EmailList = () => {
                 {emails.map(email => ( 
                     <EmailRow title={email.data.to} subject={email.data.subject} des={email.data.message} time={new Date(email.data.timestamp?.seconds * 1000).toUTCString()} id={email.id} key={email.id} />
                 ))}
-                <EmailRow title="Test" subject="dummies" des="blah blah" time="10pm" />
-                <EmailRow title="Test" subject="dummies" des="blah blah" time="10pm" />
-                <EmailRow title="Test" subject="dummies" des="blah blah" time="10pm" />
-                <EmailRow title="Test" subject="dummies" des="blah blah" time="10pm" />
-                <EmailRow title="Test" subject="dummies" des="blah blah" time="10pm" />
-                <EmailRow title="Test" subject="dummies" des="blah blah" time="10pm" />
-                <EmailRow title="Test" subject="dummies" des="blah blah" time="10pm" />
-                <EmailRow title="Test" subject="dummies" des="blah blah" time="10pm" />
-                <EmailRow title="Test" subject="dummies" des="blah blah" time="10pm" />
-                <EmailRow title="Test" subject="dummies" des="blah blah" time="10pm" />
-                <EmailRow title="Test" subject="dummies" des="blah blah" time="10pm" />
-                <EmailRow title="Test" subject="dummies" des="blah blah" time="10pm" />
-                <EmailRow title="Test" subject="dummies" des="blah blah" time="10pm" />
-                <EmailRow title="Test" subject="dummies" des="blah blah" time="10pm" />
-                <EmailRow title="Test" subject="dummies" des="blah blah" time="10pm" />
-                <EmailRow title="Test" subject="dummies" des="blah blah" time="10pm" />
-                <EmailRow title="Test" subject="dummies" des="blah blah" time="10pm" />
-                <EmailRow title="Test" subject="dummies" des="blah blah" time="10pm" />
-                <EmailRow title="Test" subject="dummies" des="blah blah" time="10pm" />
-                <EmailRow title="Test" subject="dummies" des="blah blah" time="10pm" />
-                <EmailRow title="Test" subject="dummies" des="blah blah" time="10pm" />
             </div>
         </div>
     )
